@@ -1186,29 +1186,7 @@ background-repeat: no-repeat;
 
 
 @media screen and (max-width: 764px) {
-  .owl-dots{
-    visibility: visible !important;
-    width: auto;
-    height: auto;
-
-  }
-  .owl-nav{
-    visibility: visible !important;
-    position: absolute;
-    top: 41%;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 30px;
-    color: #f886a1 !important;
-  }
-  
-  .owl-carousel{
-    width: 100%;
-  }
- #GalleryMediaPhoto{
-  display: none;
- }
+ 
   .sidebarIcon{
     
   }
@@ -1503,7 +1481,31 @@ background-repeat: no-repeat;
     font-size: 24px !important;
   }
 }
+@media (max-width: 427px) {
+  .owl-dots{
+    visibility: visible !important;
+    width: auto;
+    height: auto;
 
+  }
+  .owl-nav{
+    visibility: visible !important;
+    position: absolute;
+    top: 41%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+    color: #f886a1 !important;
+  }
+  
+  .owl-carousel{
+    width: 100%;
+  }
+ #GalleryMediaPhoto{
+  display: none;
+ }
+}
 /* Desktop View*/
 @media only screen and (min-width: 768px) {
   #wrapper {
