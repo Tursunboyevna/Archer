@@ -1452,8 +1452,13 @@ background-repeat: no-repeat;
     margin-left: 0 !important;
   } */
 }
-@media screen  and (max-width: 1030) {
- 
+@media screen  and (max-width: 991.5px) {
+  .drensysImgMarginTop-65{
+    margin-top: 65px !important;
+  }
+  .textLgCenter{
+    text-align: center !important;
+  }
  
 }
 @media screen and (min-width: 1401px) {
