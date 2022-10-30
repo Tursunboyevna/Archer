@@ -1,8 +1,7 @@
 const modal = document.getElementById("myModal");
-
 const btn = document.getElementById("myBtn");
-
 const span = document.getElementsByClassName("close")[0];
+const sidebarClose = document.getElementById("sidebarClose");
 
 
 
@@ -22,6 +21,7 @@ btn.onclick = function () {
 span.onclick = function () {
     // modal.style.display = "none";
     modal.style.width="0%"
+    $("#wrapper").style.width="0%"
 }
 // span2.onclick = function () {
 //     modal2.style.display = "none";
@@ -34,9 +34,6 @@ window.onclick = function (event) {
     }
 }
 
-// navbar
-// ANSWER TO QUESTION https://stackoverflow.com/questions/51751978/html5-canvas-circle-lag-on-display
-// ANSWER TO ISSUE https://github.com/OwlCarousel2/OwlCarousel2/issues/2413 
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
@@ -113,9 +110,20 @@ $(document).ready(function(){
       };
     })        
   }
+
   $("#menu-toggle").click(function(e) {
     e.preventDefault();
     $("#wrapper").toggleClass("toggled");
+    // $("##sidebar-wrapper").style.right=0
     
-
+    
 });
+// sidebarClose.click(function(e) {
+//   e.preventDefault();
+//  $(document).ready(function(){
+//   $("button").click(function(){
+//     $("p").hide(1000);
+//   });
+// });
+  
+// });
