@@ -1297,6 +1297,9 @@ background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 764px) {
+  .textLgCenter{
+    text-align: center !important;
+  }
   nav{
     display: none !important;
    }
