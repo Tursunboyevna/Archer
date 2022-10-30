@@ -1,6 +1,6 @@
 const modal = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
-const span = document.getElementsByClassName("close")[0];
+const span = document.getElementById("close");
 const sidebarClose = document.getElementById("sidebarClose");
 
 
@@ -10,39 +10,22 @@ btn.onclick = function () {
     modal.style.display = "block";
     modal.style.width="100%"
 }
-// btn2.onclick = function () {
-//     modal.style.display = "block";
-// }
-// btn3.onclick = function () {
-//     modal.style.display = "block";
-// }
 
 
 span.onclick = function () {
-    // modal.style.display = "none";
     modal.style.width="0%"
     $("#wrapper").style.width="0%"
 }
-// span2.onclick = function () {
-//     modal2.style.display = "none";
-// }
+
 window.onclick = function (event) {
     if (event.target == modal) {
-        // modal.style.display = "none";
         modal.style.width="0%"
-                // modal2.style.display = "none";
     }
 }
 
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-      /**
-      * owl carousel cloned prev/next blocks to allow infinite loop,
-      * so you must to init canvas after every change
-      * 
-      * P.S. change event fires also on owl carousel init, so no need to init canvas before
-      */
       onChanged: function(e) {
         progressSim('.my_canvas');
       },
@@ -68,7 +51,6 @@ $(document).ready(function(){
   });
   
   
-  /* CANVAS JS */
   function progressSim(selector) {
     $(selector).each(function() {
       const $item = $(this);
@@ -117,8 +99,4 @@ $(document).ready(function(){
   function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
   }
-//   $("#menu-toggle").click(function(e) {
-//     e.preventDefault();
-//     $("#wrapper").toggleClass("toggled"); 
-// });
 
