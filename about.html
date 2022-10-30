@@ -40,7 +40,7 @@
           <div class="row w-100 justify-content-around">
             <div class="col-1 col-lg-1 menuHamburger pe-0">
               <div id="mainMenu-trigger">
-                <a class="lines-button " href="#menu-toggle" id="menu-toggle">
+                <a class="lines-button "  class="openbtn" onclick="openNav()">
                   <span class="lines"></span>
                 </a>
               </div>
@@ -100,33 +100,11 @@
         </div>
       </div>
     </header>
-    <div id="wrapper">
-      <!-- Sidebar -->
-      <div id="sidebar-wrapper">
+    <!-- <div id="wrapper">
+       Sidebar -->
+      <!-- <div id="sidebar-wrapper">
         <div class="sidebar-nav">
-          <div>
-            <button
-          type="button"
-          style="border: none; background-color: transparent; margin:20px"
-          class="close"
-          id="sidebarClose"
-          aria-hidden="true"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill="#f886a1"
-              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293L5.354 4.646z"
-            />
-          </svg>
-        </button>
 
-          </div>
           <ul class=" align-items-center justify-content-start  me-30">
 
             <li>
@@ -151,35 +129,65 @@
                 <button class="btn donate-btn">Donate</button>
               </a>
             </li>
-            <!-- <li>
-        <div class="social-facebook iconRespon navbarIcon">
-          <a href="https://www.facebook.com/thearchersproject"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-        </div>
-        <div class="social-instagram iconRespon navbarIcon">
-          <a href="https://www.instagram.com/thearchersproject/?hl=en"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </div>
-
-      </li> -->
 
           </ul>
         </div>
       </div>
-      <!-- /#sidebar-wrapper -->
 
-      <!-- Page Content -->
-      <!-- <div id="page-content-wrapper"> -->
-      <!-- <span href="#menu-toggle" id="menu-toggle">
-             &#9776;
-           </span> -->
-      <!-- Underlined text header -->
+    </div> -->
 
-
-      <!-- </div> -->
-      <!-- /#page-content-wrapper -->
+    <div id="mySidebar" class="sidebar1" id="#sidebar-wrapper">
+      <button
+      type="button"
+      style="border: none; background-color: transparent; margin:20px"
+      class="close"
+      
+      aria-hidden="true"
+      
+    >
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="30"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill="#f886a1"
+        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293L5.354 4.646z"
+      />
+    </svg></a>
+    
+      
+    </button>
+      <!-- <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+      -->
+      <div class=" mt-4 ms-4">
+        <a href="#">Home</a>
+      
+        <a href="#Causes">Causes</a>
+    
+      
+        <a href="about.html">About</a>
+     
+    
+        <a href="#media">Media</a>
+    
+    
+        <a href="#Contact">Contact</a>
+    
+    
+    
+        <a href="https://venmo.com/code?user_id=3338305592623104556&created=1649440795.389797&printed=1"
+          class="header p-0">
+          <button class="btn donate-btn">Donate</button>
+        </a>
+    
+      </div>
+       
     </div>
 
     <div class="dots-creative inspiro-slider" id="slider" data-height-xs="360">
@@ -292,14 +300,15 @@
             </a>
           </div>
 
-          <div class="item"> 
+          <div class="item">
             <a href="http://archer.drensys.com/assets/images/messages_0-9.jpeg" data-lightbox="gallery-image">
               <img alt="" src="http://archer.drensys.com/assets/images/messages_0-9.jpeg" />
               <div class="picture-legend"></div>
               <div class="mask"></div>
-            </a></div>
+            </a>
+          </div>
 
-          <div class="item"> 
+          <div class="item">
             <a href="http://archer.drensys.com/assets/images/messages_0-2.jpeg" data-lightbox="gallery-image">
               <img alt="" src="http://archer.drensys.com/assets/images/messages_0-2.jpeg" />
               <div class="picture-legend"></div>
@@ -307,7 +316,7 @@
             </a>
           </div>
 
-          <div class="item"> 
+          <div class="item">
             <a href="http://archer.drensys.com/assets/images/messages_0-3.jpeg" data-lightbox="gallery-image">
               <img alt="" src="http://archer.drensys.com/assets/images/messages_0-3.jpeg" />
               <div class="picture-legend"></div>
@@ -315,7 +324,7 @@
             </a>
           </div>
 
-          <div class="item"> 
+          <div class="item">
             <a href="http://archer.drensys.com/assets/images/messages_0-4.jpeg" data-lightbox="gallery-image">
               <img alt="" src="http://archer.drensys.com/assets/images/messages_0-4.jpeg" />
               <div class="picture-legend"></div>
@@ -323,46 +332,51 @@
             </a>
           </div>
 
-          <div class="item"> 
+          <div class="item">
             <a href="http://archer.drensys.com/assets/images/messages_0-5.jpeg" data-lightbox="gallery-image"><img
-              alt="" src="http://archer.drensys.com/assets/images/messages_0-5.jpeg" />
-            <div class="picture-legend"></div>
-            <div class="mask"></div>
-          </a>
+                alt="" src="http://archer.drensys.com/assets/images/messages_0-5.jpeg" />
+              <div class="picture-legend"></div>
+              <div class="mask"></div>
+            </a>
           </div>
 
-          <div class="item">  <a href="http://archer.drensys.com/assets/images/messages_0-6.jpeg" data-lightbox="gallery-image"><img
-            alt="" src="http://archer.drensys.com/assets/images/messages_0-6.jpeg" />
-          <div class="picture-legend"></div>
-          <div class="mask"></div>
-        </a></div>
+          <div class="item"> <a href="http://archer.drensys.com/assets/images/messages_0-6.jpeg"
+              data-lightbox="gallery-image"><img alt=""
+                src="http://archer.drensys.com/assets/images/messages_0-6.jpeg" />
+              <div class="picture-legend"></div>
+              <div class="mask"></div>
+            </a></div>
 
-          <div class="item">  <a href="http://archer.drensys.com/assets/images/messages_0-7.jpeg" data-lightbox="gallery-image"><img
-            alt="" src="http://archer.drensys.com/assets/images/messages_0-7.jpeg" />
-          <div class="picture-legend"></div>
-          <div class="mask"></div>
-        </a></div>
+          <div class="item"> <a href="http://archer.drensys.com/assets/images/messages_0-7.jpeg"
+              data-lightbox="gallery-image"><img alt=""
+                src="http://archer.drensys.com/assets/images/messages_0-7.jpeg" />
+              <div class="picture-legend"></div>
+              <div class="mask"></div>
+            </a></div>
 
-          <div class="item">  <a href="http://archer.drensys.com/assets/images/messages_0-8.jpeg" data-lightbox="gallery-image"><img
-            alt="" src="http://archer.drensys.com/assets/images/messages_0-8.jpeg" />
-          <div class="picture-legend"></div>
-          <div class="mask"></div>
-        </a></div>
+          <div class="item"> <a href="http://archer.drensys.com/assets/images/messages_0-8.jpeg"
+              data-lightbox="gallery-image"><img alt=""
+                src="http://archer.drensys.com/assets/images/messages_0-8.jpeg" />
+              <div class="picture-legend"></div>
+              <div class="mask"></div>
+            </a></div>
 
-          <div class="item">  <a href="http://archer.drensys.com/assets/images/messages_0-10.jpeg" data-lightbox="gallery-image"><img
-            alt="" src="http://archer.drensys.com/assets/images/messages_0-10.jpeg" />
-          <div class="picture-legend"></div>
-          <div class="mask"></div>
-        </a></div>
+          <div class="item"> <a href="http://archer.drensys.com/assets/images/messages_0-10.jpeg"
+              data-lightbox="gallery-image"><img alt=""
+                src="http://archer.drensys.com/assets/images/messages_0-10.jpeg" />
+              <div class="picture-legend"></div>
+              <div class="mask"></div>
+            </a></div>
 
-          <div class="item">  <a href="http://archer.drensys.com/assets/images/messages_0-11.jpeg" data-lightbox="gallery-image"><img
-                  alt="" src="http://archer.drensys.com/assets/images/messages_0-11.jpeg" />
-                <div class="picture-legend"></div>
-                <div class="mask"></div>
-              </a></div>
+          <div class="item"> <a href="http://archer.drensys.com/assets/images/messages_0-11.jpeg"
+              data-lightbox="gallery-image"><img alt=""
+                src="http://archer.drensys.com/assets/images/messages_0-11.jpeg" />
+              <div class="picture-legend"></div>
+              <div class="mask"></div>
+            </a></div>
 
         </div>
-        
+
         <div class="portfolio" id="GalleryMediaPhoto2">
           <div class="grid-4-columns grid-layout grid-loaded"
             style="margin: 0 -10px -10px 0; position: relative; height: 614.203px" data-item="grid-item"
