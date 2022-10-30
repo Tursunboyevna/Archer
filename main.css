@@ -1511,8 +1511,14 @@ background-repeat: no-repeat;
   } */
 }
 @media screen  and (max-width: 991.5px) {
+  .wedding-circle-image img{
+    height: auto !important;
+  }
   .drensysImgMarginTop-65{
     margin-top: 65px !important;
+  }
+  .drensysImgMarginTop-35{
+    margin-top: 35px !important;
   }
   .textLgCenter{
     text-align: center !important;
@@ -1531,6 +1537,7 @@ background-repeat: no-repeat;
 }
 
 @media (min-width: 992px) {
+  
   #wrapper{
     display: none;
   }
@@ -1580,31 +1587,7 @@ background-repeat: no-repeat;
   display: none;
  }
 }
-/* Desktop View*/
-/* @media only screen and (min-width: 768px) {
-  #wrapper {
-    padding-left: 250px;
-  }
-  #wrapper.toggled {
-    padding-left: 0;
-  }
-  #sidebar-wrapper {
-    width: 250px;
-  }
-  #wrapper.toggled #sidebar-wrapper {
-    width: 0;
-  }
-  #page-content-wrapper {
-    padding: 60px 40px;
-    position: relative;
-  }
-  #wrapper.toggled #page-content-wrapper {
-    position: relative;
-    margin-right: 0;
-  }
-} */
 
-/* mobile */
 #page-content-wrapper #menu-toggle {
   cursor: pointer;
   font-size: 30px;
