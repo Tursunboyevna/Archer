@@ -1033,11 +1033,13 @@ li {
 .owl-carousel{
   width: 0%;
 }
+.owl-carousel img{
+  width: 0%;
+}
 
 .item{
   width:100%;
   /* height: 230px; */
- 
 }
 .owl-nav{
   visibility: hidden !important;
@@ -1510,7 +1512,18 @@ background-repeat: no-repeat;
   .owl-carousel{
     width: 100%;
   }
- #GalleryMediaPhoto{
+  .owl-carousel img{
+    width:100%;
+    height: 300px;
+  }
+  .item{
+    width:100%;
+    height: 230px;
+  }
+  #GalleryMediaPhoto{
+  display: none;
+ }
+  #GalleryMediaPhoto2{
   display: none;
  }
 }

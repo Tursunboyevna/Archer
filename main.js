@@ -67,6 +67,7 @@ $(document).ready(function(){
     });
   });
   
+  
   /* CANVAS JS */
   function progressSim(selector) {
     $(selector).each(function() {
