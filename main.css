@@ -1238,6 +1238,9 @@ background-repeat: no-repeat;
 }
 
 
+.mfp-counter {
+  display: none;}
+
 
 
 @media screen and (max-width: 764px) {
@@ -1475,6 +1478,7 @@ background-repeat: no-repeat;
    
 
   }
+
 }
 @media screen and (min-width: 991px) and (max-width: 1400px) {
   .modal-content {
