@@ -526,6 +526,15 @@
                 <label for="inputMessage">Message</label>
                 <textarea class="form-control" id="inputMessage" rows="2" required></textarea>
               </div>
+              <div class="captcha bg-white" >
+                <div class="spinner ms-0">
+                  <label>
+                    <input type="checkbox" required onclick="$(this).attr('disabled','disabled');" />
+                    <span class="checkmark"><span>&nbsp;</span></span>
+                  </label>
+                </div>
+                <div class="text">I'm not a robot</div>
+              </div>
               <div class="d-flex">
                 <input type="submit" class="btn btn-primary" value="Send"
                   style="background-color: #f886a1; border: none" />
